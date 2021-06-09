@@ -1,0 +1,99 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 5px  20px auto;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.head-img{
+  margin-left: 70px;
+  
+}
+
+#header{
+  background: #1C6EFF;
+}
+
+#header .name {
+  float: right;
+  padding-right: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-right: 85px;
+}
+
+#header p {
+  float: right;
+  top: 60px;
+  right: 110px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+#main {
+  margin-top: 20px;
+  display: flex;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.txt {
+  font-size: 16px;
+  font-weight: normal;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+  
+}
+
+.icon {
+  margin: auto;
+  display: block;
+}
+
+#about{
+  box-sizing: border-box;
+  /* background: #ddd; */
+  padding: 20px;
+  text-align: center;
+  width: 700px;
+  margin: auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform:capitalize ;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#footer {
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: -40px;
+  line-height: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
