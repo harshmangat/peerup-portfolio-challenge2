@@ -1,0 +1,54 @@
+
+
+.head-img {
+ margin-left: 300px;
+ padding: 10px;
+ 
+}
+
+#header .name, #header p {
+  float: none; 
+  margin: 0;
+  padding: 0;
+  
+}
+
+#header .name {
+  padding-bottom: 50px;
+  padding-left: 200px;
+
+}
+
+#header p{
+  padding-top: 160px;
+  
+}
+
+
+
+#main {
+  flex-direction: column;
+}
+
+#main h3 {
+  padding-top: 10px;
+}
+
+#main .icon{
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+article {
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #444;
+}
+
+#about {
+  max-width: 300px;
+  
+}
+
+hr {
+  margin-top: 5px;
+}
