@@ -7,7 +7,7 @@ body{
 .container {
   margin: auto;
   position: relative;
-  max-width: 100%;
+  /* max-width: 100%; */
   margin-bottom: 20px;
 }
 
@@ -21,6 +21,7 @@ body{
   background: #1C6EFF;
   display: flex;
   width: 100%;
+  margin-right: 0;
 }
 
 #header .name {
@@ -64,11 +65,17 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
   #main {
     flex-direction: column;
   }
   #header {
     flex-direction: column;
+    width: 100%;
   }
 
   #header p {
@@ -156,9 +163,9 @@ a {
 @media screen and (max-width: 700px) {
   #main {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 0;
-    width: 350px;
+    width: 90%;
   }
 
   h3{
